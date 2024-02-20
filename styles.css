@@ -16,24 +16,23 @@ nav {
   margin: 5px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   height: 30px;
 }
 
 .nav_links {
   position: absolute;
   border: 2px solid yellow;
-  right: 25%;
-  top: 6%;
-  width: calc(100vw - 80%)
+  right: 15%;
+  top: 40px;
 }
 
 #nav_logo {
   height: 70px;
   width: 280px;
   position: absolute;
-  left: 10%;
-  top: 5%;
+  left: 15%;
+  top: 35px;
 }
 
 #nav_logo a {
@@ -55,20 +54,62 @@ a:hover {
   text-decoration: underline;
 }
 
+.container {
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 3px solid black;
+}
 
 .banner {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  margin: 10px;
+}
+
+.banner img {
+  width: 35%;
+  margin: 3px;
+}
+
+.banner p {
+  width: 65%;
+  margin: 30px;
+  text-align: center;
+  font-size: xx-large;
+  font-style: bold;
+
 }
 
 .thumbnails {
   display: flex;
   flex-direction: row;
+  margin: 10px;
+}
+
+.thumbnails div {
+  width: 25%;
+  height: 200px;
+}
+
+.thumbnails div img {
+  width: 100%;
+  height: 50%;
+}
+
+.best_hairstylists, .featured_hairstyles, .hair_care, .we_hair_you, .featured, .hairstyle {
+  border: 5px solid yellow;
+  margin: 3px;
 }
 
 .bottom {
   display: flex;
   flex-direction: row;
+  margin: 10px;
+}
+
+.bottom img, .bottom h2, .bottom p {
+  margin: 3px;
 }
 
 .featured_title {
@@ -76,7 +117,32 @@ a:hover {
   flex-direction: row;
 }
 
+.featured_title img {
+  width: 25%;
+}
+
 .balding {
   display: flex;
   flex-direction: row;
+}
+
+.balding img {
+  width: 35%;
+  height: 20%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(81, 170, 161);
+  height: 100px;
+  width: 100%;
+}
+
+footer p {
+  text-align: center;
+  margin: auto;
+  color: white;
+  font-size: small;
+  border: 2px solid yellow;
 }
